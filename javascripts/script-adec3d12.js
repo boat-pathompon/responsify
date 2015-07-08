@@ -1,0 +1,1 @@
+!function(){$(function(){var e;return e=window.location.search.match(/site=([^\s]+)/),null!=e?(e=decodeURIComponent(e[1]),document.querySelector("#site--form input[name=site]").value=e,$(".frame").each(function(){return $(this).css("display","inline-block"),$("iframe",this).load(e)})):$("#help").show()},!1)}.call(this);
